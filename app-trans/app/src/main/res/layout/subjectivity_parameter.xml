@@ -1,0 +1,245 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:baselineAligned="false"
+    android:orientation="horizontal" >
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@drawable/eye_layout_l"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/desc"
+            android:src="@drawable/eye_r" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="7.5"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:id="@+id/cd_2"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="center" >
+
+            <TextView
+                android:id="@+id/txt_eye_s_left"
+                style="@style/eye_text"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:textColor="@color/black"
+                android:layout_weight="1" />
+
+            <Spinner
+                android:id="@+id/spi_eye_s"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_margin="1.5dp"
+                android:layout_weight="1"
+                android:background="@drawable/eye_layout_center" />
+
+            <TextView
+                android:id="@+id/txt_eye_s_right"
+                style="@style/eye_text"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:textColor="@color/black"
+                android:layout_weight="1" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="center" >
+
+            <TextView
+                android:id="@+id/txt_eye_c_left"
+                style="@style/eye_text"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:textColor="@color/black"
+                android:layout_weight="1" />
+
+            <Spinner
+                android:id="@+id/spi_eye_c"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_margin="1.5dp"
+                android:layout_weight="1"
+                android:background="@drawable/eye_layout_center"
+                android:entries="@array/spi_c" />
+
+            <TextView
+                android:id="@+id/txt_eye_c_right"
+                style="@style/eye_text"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:textColor="@color/black"
+                android:layout_weight="1" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="center" >
+
+            <TextView
+                android:id="@+id/txt_eye_a_left"
+                style="@style/eye_text"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:textColor="@color/black"
+                android:layout_weight="1" />
+
+            <Spinner
+                android:id="@+id/spi_eye_a"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_margin="1.5dp"
+                android:layout_weight="1"
+                android:background="@drawable/eye_layout_center"
+                android:entries="@array/spi_a" />
+
+            <TextView
+                android:id="@+id/txt_eye_a_right"
+                style="@style/eye_text"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:textColor="@color/black"
+                android:layout_weight="1" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="center" >
+
+            <TextView
+                android:id="@+id/txt_eye_h_left"
+                style="@style/eye_text"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:textColor="@color/black"
+                android:layout_weight="1" />
+
+            <Spinner
+                android:id="@+id/spi_eye_h"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_margin="1.5dp"
+                android:layout_weight="1"
+                android:background="@drawable/eye_layout_center"
+                android:entries="@array/spi_h" />
+
+            <TextView
+                android:id="@+id/txt_eye_h_right"
+                style="@style/eye_text"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:textColor="@color/black"
+                android:layout_weight="1" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/cd_1"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="center" >
+
+            <TextView
+                android:id="@+id/txt_eye_v_left"
+                style="@style/eye_text"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:textColor="@color/black"
+                android:layout_weight="1" />
+
+            <Spinner
+                android:id="@+id/spi_eye_v"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_margin="1.5dp"
+                android:layout_weight="1"
+                android:background="@drawable/eye_layout_center"
+                android:entries="@array/spi_v" />
+
+            <TextView
+                android:id="@+id/txt_eye_v_right"
+                style="@style/eye_text"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:textColor="@color/black"
+                android:layout_weight="1" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/cd_3"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="center" >
+
+            <TextView
+                android:id="@+id/txt_eye_add_left"
+                style="@style/eye_text"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:textColor="@color/black"
+                android:layout_weight="1" />
+
+            <Spinner
+                android:id="@+id/spi_eye_add"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_margin="1.5dp"
+                android:layout_weight="1"
+                android:background="@drawable/eye_layout_center"
+                android:entries="@array/spi_add" />
+
+            <TextView
+                android:id="@+id/txt_eye_add_right"
+                style="@style/eye_text"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:textColor="@color/black"
+                android:layout_weight="1" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="0.95"
+        android:background="@drawable/eye_layout_r"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/desc"
+            android:src="@drawable/eye_l" />
+    </LinearLayout>
+
+</LinearLayout>

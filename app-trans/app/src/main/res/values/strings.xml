@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2013 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources>
+
+    <string name="ble_not_supported">BLE is not supported</string>
+    <string name="label_data">Data:</string>
+    <string name="label_device_address">Device address:</string>
+    <string name="label_state">State:</string>
+    <string name="no_data">No data</string>
+    <string name="connected">Connected</string>
+    <string name="disconnected">Disconnected</string>
+    <string name="title_devices">BLE Device Scan</string>
+    <string name="error_bluetooth_not_supported">Bluetooth not supported.</string>
+    <string name="unknown_device">Unknown device</string>
+    <string name="unknown_characteristic">Unknown characteristic</string>
+    <string name="unknown_service">Unknown service</string>
+
+    <string-array name="languages">
+        <item>c语言</item>
+        <item>java </item>
+        <item>php</item>
+        <item>xml</item>
+        <item>html</item>
+    </string-array>
+
+    <!-- Menu items -->
+    <string name="menu_connect">Connect</string>
+    <string name="menu_disconnect">Disconnect</string>
+    <string name="menu_scan">Scan</string>
+    <string name="menu_stop">Stop</string>
+    <string name="bt_config_title">Devices Setting</string> 
+    <string name="bt_search_title">Add the devices</string> 
+    <!-- main -->
+    <string name="DeviceName">Default device</string>
+    <string name="MainTitle">Device management</string>
+    <string name="BTTextPrintTest">Print Test</string>
+    <string name="TextViewPrinterList">Installed device</string>
+    <string name="BTTextAddNewPrinter">Set Up</string>
+    <string name="DialogTitleBTState">Prompt</string>
+    <string name="DialogMsgBTState">Bluetooth device is not open,Please open the Bluetooth device?</string>
+    <string name="DialogMsgButtonOK">Yes</string>
+    <string name="DialogMsgButtonNO">No</string>
+    <string name="MainClose">Return</string>
+    <string name="MenuOK">OK</string>
+
+    <!-- search printer -->
+    <string name="PrinterSearching">Being searched</string> 
+    <string name="ButtonSearchText">Search again</string> 
+    <string name="SearchFinishMessage">Search complete</string> 
+    <string name="MsgPrinterAdding">Add device</string> 
+
+
+    <!-- desc -->
+    <string name="desc">图片描述</string>
+
+    <!-- 下拉框参数 -->
+    <string-array name="spi_s">
+        <item>S(0.25)</item>
+        <item>S(0.50)</item>
+        <item>S(1.00)</item>
+        <item>S(2.00)</item>
+        <item>S(3.00)</item>
+       
+    </string-array>
+    <string-array name="spi_c">
+        <item>C(-0.25)</item>
+        <item>C(-0.50)</item>
+        <item>C(-1.00)</item>
+        <item>C(-2.00)</item>
+    </string-array>
+    <string-array name="spi_a">
+        <item>A(1)</item>
+        <item>A(5)</item>
+        <item>A(15)</item>
+        <item>A(30)</item>
+        <item>A(45)</item>
+    </string-array>
+    <string-array name="spi_h">
+        <item>H(0.1)</item>
+        <item>H(0.2)</item>
+        <item>H(0.5)</item>
+        <item>H(1.0)</item>
+        <item>H(2.0)</item>
+    </string-array>
+    <string-array name="spi_v">
+        <item>V(0.1)</item>
+        <item>V(0.2)</item>
+        <item>V(0.5)</item>
+        <item>V(1.0)</item>
+        <item>V(2.0)</item>
+    </string-array>
+    <string-array name="spi_add">
+        <item>ADD(0.25)</item>
+        <item>ADD(0.5)</item>
+        <item>ADD(1.0)</item>
+    </string-array>
+    
+    <string-array name="spi_program">
+         <item>Prog.</item> 
+  <item>Prog.1</item> 
+  <item>Prog.2</item> 
+  <item>Prog.3</item> 
+  <item>PROG.1</item> 
+  <item>PROG.2</item> 
+  <item>PROG.3</item> 
+  <item>PROG.4</item> 
+  <item>PROG.5</item> 
+  <item>PROG.6</item> 
+
+    </string-array>
+    
+     <string-array name="spi_program1">
+        <item>程式.</item> 
+  <item>标准1</item> 
+  <item>标准2</item> 
+  <item>标准3</item> 
+  <item>客户1</item> 
+  <item>客户2</item> 
+  <item>客户3</item> 
+  <item>客户4</item> 
+  <item>客户5</item> 
+  <item>客户6</item> 
+
+    </string-array>
+
+    <string name="hello_world">TODO</string>
+    <string name="action_settings">Settings</string>
+
+</resources>
